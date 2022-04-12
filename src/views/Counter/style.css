@@ -1,0 +1,19 @@
+.buttonAdd {
+    font-size: large;
+    background-color: greenyellow;
+    border: 0px;
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+
+}
+
+.buttonSubs {
+    font-size: large;
+    background-color: orangered;
+    border: 0px;
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+
+}
