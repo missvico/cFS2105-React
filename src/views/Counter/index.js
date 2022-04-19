@@ -23,7 +23,7 @@ function Counter(){
             <h1>Counter</h1> 
             <Button disabled={count <= 0} handleClick={handleSubstract} symbol="-"/>
             <Number number={count} />
-            <Button disabled={count >= 20} handleClick={handleAdd} symbol="+"/>
+            <Button disabled={count >= 10} handleClick={handleAdd} symbol="+"/>
         </section>
     )
 }

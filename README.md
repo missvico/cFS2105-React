@@ -4,7 +4,7 @@ Este proyecto se hizo utilizando [Create React App](https://github.com/facebook/
 
 ## Inicio del proyecto
 
-Clonar el proyecto en su carpeta de preferencia desde la terminal corriendo 
+Clonar el proyecto en su carpeta de preferencia desde la terminal corriendo:
 `git clone https://github.com/missvico/cFS2105-React.git`
 
 ## Instalacion de dependencias

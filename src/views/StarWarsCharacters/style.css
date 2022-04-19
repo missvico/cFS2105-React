@@ -1,0 +1,10 @@
+.characterCard{
+    background-color: rgb(238, 179, 28);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.currPage{
+    background-color: rgb(189, 5, 5);
+}
