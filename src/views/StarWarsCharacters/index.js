@@ -30,7 +30,8 @@ function StarWarsCharacters (){
     return (
         <section>
             <h1>Star Wars Characters</h1>
-            <Pagination pagesCount={pagesCount} handleChangePage={handleChangePage} currPage={location.search.split("=")[1]}/>
+            <input placeholder="Buscar personaje por nombre..."/><button>Buscar</button>
+            {/* <Pagination pagesCount={pagesCount} handleChangePage={handleChangePage} currPage={location.search.split("=")[1]}/> */}
             <CharacterList characters={characters}/>
         </section>
     )

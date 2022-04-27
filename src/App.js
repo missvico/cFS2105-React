@@ -5,6 +5,7 @@ import ToDoList from './views/ToDoList';
 import StarWarsCharacters from './views/StarWarsCharacters';
 import StarWarsSingleCharacter from './views/StarWarsSingleCharacter';
 import BootstrapDemo from './views/BootstrapDemo';
+import EjercicioIntegrador from './views/EjercicioIntegrador'
 import logo from './logo.svg';
 import './App.css';
 // import 'bootstrap/scss/bootstrap.scss'
@@ -25,6 +26,7 @@ function App() {
               <Link className="nav-link" to="/tasks">Tasks</Link>
               <Link className="nav-link" to="/starwars/people">StarWars</Link>
               <Link className="nav-link" to="/bootstrap">Bootstrap Demo</Link>
+              <Link className="nav-link" to="/integrador">Integrador</Link>
             </div>
           </div>
       </div>
@@ -33,6 +35,7 @@ function App() {
       
         <Routes>
             <Route path="/" element={<Landing name="Victoria" lastLetter="a"/>}/>
+            <Route path="/integrador" element={<EjercicioIntegrador/>} />
             <Route path="/counter" element={<Counter/>} />
             <Route path="/tasks" element={<ToDoList/>} />
             <Route path="/starwars/people" element={<StarWarsCharacters/>} />
